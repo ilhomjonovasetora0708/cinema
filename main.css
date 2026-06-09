@@ -87,3 +87,27 @@ header {
     background: #222;
     color: white;
 }
+#themeBtn {
+    width: 42px;
+    height: 42px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    background: #222;
+    color: white;
+}
+
+/* =========================
+   HERO
+========================= */
+
+.hero {
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    background:
+        linear-gradient(to right,
+            rgba(0, 0, 0, .9),
+            rgba(0, 0, 0, .4)),
+        url("https://images.unsplash.com/photo-1489599849927-2ee91cede3ba") center/cover no-repeat;
+}
