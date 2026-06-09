@@ -42,3 +42,48 @@ header {
     background: #141414;
     box-shadow: 0 2px 20px rgba(0, 0, 0, .5);
 }
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 0;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: 800;
+    color: #e50914;
+}
+
+.logo i {
+    margin-right: 8px;
+}
+
+.menu {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+}
+
+.menu a {
+    color: #ddd;
+    transition: .3s;
+}
+.menu a:hover {
+    color: #e50914;
+}
+
+.nav-actions {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+#searchInput {
+    padding: 10px 14px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    background: #222;
+    color: white;
+}
