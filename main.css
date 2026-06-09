@@ -111,3 +111,56 @@ header {
             rgba(0, 0, 0, .4)),
         url("https://images.unsplash.com/photo-1489599849927-2ee91cede3ba") center/cover no-repeat;
 }
+.hero-text h1 {
+    font-size: 60px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    font-size: 18px;
+    color: #ccc;
+    margin-bottom: 25px;
+}
+
+.primary-btn {
+    padding: 14px 30px;
+    border: none;
+    border-radius: 8px;
+    background: #e50914;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* =========================
+   SECTIONS
+========================= */
+.section-title {
+    font-size: 32px;
+    margin: 50px 0 25px;
+}
+
+/* =========================
+   MOVIES
+========================= */
+
+.movie-grid {
+    display: grid;
+    grid-template-columns:
+        repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.movie-card {
+    background: #1a1a1a;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.movie-card:hover {
+    transform: scale(1.05);
+}
